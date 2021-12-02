@@ -1,5 +1,5 @@
 Split ← (⊢-˜+`×¬)∘=⊔⊢
-i ← "up"‿"forward"‿"down"⊸⊐⊸⋈⟜(•Bqn¨)´·<˘⍉>' 'Split¨•Flines "input02.txt"
+i ← "up"‿"forward"‿"down"⊸⊐⊸⋈⟜(•Bqn¨)´<˘⍉>' 'Split¨•Flines "input02.txt"
 
 # Part 1
 •Show {d‿v: f←1=d ⋄ f ×○(+´v×⊢) d-1} i
