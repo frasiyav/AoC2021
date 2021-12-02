@@ -1,3 +1,4 @@
+Split ← (⊢-˜+`×¬)∘=⊔⊢
 i ← "up"‿"forward"‿"down"⊸⊐⊸⋈⟜(•Bqn¨)´·<˘⍉>' 'Split¨•Flines "input02.txt"
 
 # Part 1
