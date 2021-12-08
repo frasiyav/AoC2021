@@ -4,7 +4,6 @@ i ← "abcdefg"⊸∊⚇1(' 'Split¨'|'Split⊢)¨ •Flines "input08.txt"
 Unscramble ← { 𝕊s‿o:
   counts ← +´¨s
   d1‿d4‿d7‿d8 ← s⊏˜⥊/˘2‿4‿3‿7=⌜counts 
-  a ← d1 ≠ d7
   d3 ← (/d1⊸∨⊸≡¨)⊸⊑s/˜5=counts
   e ← ¬ d3 ∨ d4 ∨ d7
   d9 ← d8 ≠ e
