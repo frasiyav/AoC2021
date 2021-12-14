@@ -11,7 +11,5 @@ m ← >(RV⌽⌾⊑)¨s∾⚇1‿0 r
 i ← RV<˘2↕t
 F ← {+´c × ∾⟜1 i MP MP⍟(𝕩-1)˜m}
 
-# Part 1
-•Show -´0‿¯1⊏ ∨ F 10
-# Part 2
-•Show -´0‿¯1⊏ ∨ F 40
+# Parts 1 and 2
+•Show (-´0‿¯1⊏∨∘F)¨ 10‿40
