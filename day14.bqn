@@ -9,7 +9,7 @@ c ← (≠k)V¨k⊐r⊑¨⊸∾¯1⊑t
 RV ← (≠r) V r⊐⊢
 m ← >(RV⌽⌾⊑)¨s∾⚇1‿0 r
 i ← RV<˘2↕t
-F ← {+´c × ∾⟜1 i MP MP⍟(𝕩-1)˜m}
+F ← {n←⌊2⋆⁼𝕩-1 ⋄ +´c × ∾⟜1 i MP m MP⍟(𝕩-2⋆n) MP˜⍟n m}
 
 # Parts 1 and 2
 •Show (-´0‿¯1⊏∨∘F)¨ 10‿40
