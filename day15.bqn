@@ -6,8 +6,8 @@ Edges ← {
 }
 
 BF ← {
-  u‿v←<˘⍉>Edges 𝕩 ⋄  w←⥊𝕩
-  t←1 ⋄ v⊸(⊢{t↩𝕨≢𝕩⋄𝕩}·⌊´¨⊣⊔⊏⌊⊏⟜w+u⊸⊏)•_while_{𝕤⋄t} 0»∞¨w
+  u‿v←<˘⍉>Edges 𝕩 ⋄  w←v⊏⥊𝕩
+  t←1 ⋄ {t↩𝕨≢𝕩⋄𝕩}⟜(⌊´¨v⊔v⊸⊏⌊w+u⊸⊏)•_while_{𝕤⋄t} 0»∞¨w
 }
 
 # Part 1
