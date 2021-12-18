@@ -23,18 +23,18 @@ Split ← {
 
 Reduce ← (Split´ Ex´_fix)_fix
 
-ToTree ← {
-  𝕊⟨0‿0,v⟩: v;
-  𝕊∘{
-    m←»⊸<(⌈´⊸=𝕨)∧=⟜»𝕨
-    ⟨m¬⊸/(«m)-˜𝕨,⊑⍟(1=≠)¨𝕩⊔˜»+`¬«m⟩
-  }´𝕩
+Magnitude ← {
+  𝕊⟨0‿0,v⟩:
+    +´3‿2×v
+  ;
+    𝕊∘{
+      m←»⊸<(⌈´⊸=𝕨)∧=⟜»𝕨
+      ⟨(¬/𝕨-«)m,≠◶⟨⊢,⊑,+´3‿2×⊢⟩¨𝕩⊔˜»+`¬«m⟩
+    }´𝕩
 }
-
-Magnitude ← {𝕊a‿b:+´3‿2×𝕊¨𝕩;𝕩}
 
 i ← Parse¨•Flines "input18.txt"
 # Part 1
-•Show Magnitude ToTree Reduce∘Add˜´⌽i
+•Show Magnitude Reduce∘Add˜´⌽i
 # Part 2
-•Show ⌈´⥊Magnitude∘ToTree∘Reduce∘Add⌜˜i
+•Show ⌈´⥊Magnitude∘Reduce∘Add⌜˜i
